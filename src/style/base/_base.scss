@@ -1,0 +1,43 @@
+/* Reset default browser styles */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* includes padding & border in width/height */
+}
+
+/* Set base font & smooth rendering */
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove default link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Make images responsive */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Buttons clean look */
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font: inherit;
+}
